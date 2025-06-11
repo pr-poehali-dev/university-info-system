@@ -4,23 +4,23 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   const stats = [
-    { label: "Факультетов", value: "12", icon: "Building2" },
-    { label: "Кафедр", value: "68", icon: "Users" },
-    { label: "Студентов", value: "15,000+", icon: "GraduationCap" },
-    { label: "Преподавателей", value: "850+", icon: "UserCheck" },
+    { label: "Факультетов", value: "14", icon: "Building2" },
+    { label: "Кафедр", value: "75", icon: "Users" },
+    { label: "Студентов", value: "18,000+", icon: "GraduationCap" },
+    { label: "Преподавателей", value: "950+", icon: "UserCheck" },
   ];
 
   return (
     <section className="bg-gradient-to-br from-primary/5 to-primary/10 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <Badge className="mb-4">Основан в 1909 году</Badge>
+          <Badge className="mb-4">Основан в 1930 году</Badge>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Саратовский государственный университет
+            Ставропольский государственный университет
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Ведущий классический университет России с богатой историей и
-            современными образовательными технологиями
+            Ведущий классический университет Северного Кавказа с богатой
+            историей и современными образовательными технологиями
           </p>
         </div>
 

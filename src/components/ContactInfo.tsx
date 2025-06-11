@@ -6,23 +6,23 @@ const ContactInfo = () => {
   const contacts = [
     {
       title: "Приёмная комиссия",
-      phone: "+7 (8452) 51-45-49",
-      email: "priem@sgu.ru",
-      address: "ул. Астраханская, 83",
+      phone: "+7 (8652) 35-61-50",
+      email: "priem@stavsu.ru",
+      address: "ул. Пушкина, 1",
       hours: "Пн-Пт: 9:00-17:00",
     },
     {
-      title: "Деканат мехмата",
-      phone: "+7 (8452) 51-45-58",
-      email: "mm@sgu.ru",
-      address: "ул. Астраханская, 83, корп. 3",
+      title: "Деканат физмата",
+      phone: "+7 (8652) 35-61-38",
+      email: "physmath@stavsu.ru",
+      address: "ул. Пушкина, 1, корп. 2",
       hours: "Пн-Пт: 8:30-17:30",
     },
     {
-      title: "Деканат физфака",
-      phone: "+7 (8452) 51-45-47",
-      email: "phys@sgu.ru",
-      address: "ул. Астраханская, 83, корп. 1",
+      title: "Деканат истории и права",
+      phone: "+7 (8652) 35-61-45",
+      email: "law@stavsu.ru",
+      address: "ул. Пушкина, 1, корп. 3",
       hours: "Пн-Пт: 9:00-18:00",
     },
   ];
@@ -135,7 +135,7 @@ const ContactInfo = () => {
                 <div className="mt-6 pt-4 border-t">
                   <Button className="w-full">
                     <Icon name="ExternalLink" size={16} className="mr-2" />
-                    Официальный сайт СГУ
+                    Официальный сайт СтГУ
                   </Button>
                 </div>
               </CardContent>

@@ -19,7 +19,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Icon name="School" className="h-8 w-8 text-primary mr-3" />
             <h1 className="text-xl font-bold text-gray-900">
-              СГУ им. Н. Г. Чернышевского
+              СтГУ им. В.Д. Разумовского
             </h1>
           </div>
 
