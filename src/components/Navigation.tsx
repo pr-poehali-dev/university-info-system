@@ -7,9 +7,9 @@ const Navigation = () => {
 
   const navItems = [
     { id: "home", label: "Главная", icon: "Home" },
-    { id: "faculties", label: "Факультеты", icon: "GraduationCap" },
-    { id: "departments", label: "Кафедры", icon: "Users" },
-    { id: "contact", label: "Контакты", icon: "Phone" },
+    { id: "labs", label: "Лабораторные", icon: "FlaskConical" },
+    { id: "theory", label: "Теория", icon: "BookOpen" },
+    { id: "results", label: "Результаты", icon: "BarChart3" },
   ];
 
   return (
@@ -17,9 +17,9 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Icon name="School" className="h-8 w-8 text-primary mr-3" />
+            <Icon name="Cpu" className="h-8 w-8 text-primary mr-3" />
             <h1 className="text-xl font-bold text-gray-900">
-              СтГУ им. В.Д. Разумовского
+              Архитектура ПК - Виртуальные лабораторные
             </h1>
           </div>
 

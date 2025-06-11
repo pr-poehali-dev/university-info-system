@@ -1,17 +1,17 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import FacultySection from "@/components/FacultySection";
-import DepartmentInfo from "@/components/DepartmentInfo";
-import ContactInfo from "@/components/ContactInfo";
+import LabsList from "@/components/LabsList";
+import TheorySection from "@/components/TheorySection";
+import ResultsSection from "@/components/ResultsSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
-      <FacultySection />
-      <DepartmentInfo />
-      <ContactInfo />
+      <LabsList />
+      <TheorySection />
+      <ResultsSection />
     </div>
   );
 };
